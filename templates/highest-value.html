@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <center>
     <h1>highest value in given options</h1>
     {% if a > b %}
        {% if a > c %}
@@ -20,6 +21,8 @@
        <h1>max of c is {{c}}</h1>
        {% endif %}
     {% endif %}
-       
+
+    <h1></h1><a href="{% url 'schools' %}"> click here to navigate to schools and colleges with using jinja tags</a></h1>
+    </center> 
 </body>
 </html>
