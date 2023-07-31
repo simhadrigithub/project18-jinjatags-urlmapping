@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>my family members</h1>
+    <h1>{{famlily}} is  my blood, got it</h1>
+     {% if members < 6 %}
+     <h1>there are {{members}} members in my family</h1>
+     {% endif %}
+     {% for s in names %}
+     <h1>my family members names </h1>
+     <h1>{{s}}</h1>
+     {% endfor %}
+
+    
+     <h1><a href="{% urls 'hobbies'}">click here to navigate to family hobbies</a></h1>
+    </center>
+
+
+</body>
+</html>
